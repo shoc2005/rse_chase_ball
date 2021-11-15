@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 
-<robot name="my_robot2" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="my_robot3" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 
 <gazebo reference="left_wheel">
@@ -39,7 +39,7 @@
     <material>Gazebo/Red</material>
 </gazebo>
 
-  <xacro:include filename="$(find my_robot)/urdf/my_robot2.gazebo" />
+  <xacro:include filename="$(find my_robot)/urdf/my_robot3.gazebo" />
 
   <link name="robot_footprint"></link>
 
