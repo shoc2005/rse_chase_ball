@@ -95,7 +95,7 @@ class ImageProcessor {
         int ballCenterY = ball_min_ypos + vert_lenght / 2.0;
 
         /* estimate the driver's velocities */
-        float maxLinXvelocity = 0.5; // m/s
+        float maxLinXvelocity = 0.25; // m/s
         int cameraCenterX = img.width / 2.0;
         int cameraCenterY = img.height;
 
